@@ -40,7 +40,6 @@ class App extends Component {
     return (
       <div className='tc'>
         <h1 className='f1'>RoboFriends</h1>
-        <h3 className="author">By Pkc Prashant</h3>
         <SearchBox searchChange={onSearchChange}/>
         <Scroll>
           { isPending ? <h1>Loading</h1> :
@@ -49,6 +48,7 @@ class App extends Component {
             </ErrorBoundry>
           }
         </Scroll>
+        <h3 className="author">By Pkc Prashant</h3>
       </div>
     );
   }
