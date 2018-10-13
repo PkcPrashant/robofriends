@@ -12,3 +12,9 @@ h1 {
   font-weight: 200;
   color: #0ccac4;
 }
+
+.author {
+	position:absolute;
+    bottom:0;
+    right:0;
+}
