@@ -49,7 +49,7 @@ const users = [
 },
 {
 	id:9,
-	name:'Septembet',
+	name:'September',
 	username:'Sept',
 	email:'sept@month.biz'
 },
@@ -58,6 +58,18 @@ const users = [
 	name:'October',
 	username:'Oct',
 	email:'oct@month.biz'
+},
+{
+	id:11,
+	name:'November',
+	username:'Nov',
+	email:'nov@month.biz'
+},
+{
+	id:12,
+	name:'December',
+	username:'Dec',
+	email:'dec@month.biz'
 }
 ]
 
